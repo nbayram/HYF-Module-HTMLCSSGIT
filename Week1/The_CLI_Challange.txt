@@ -1,0 +1,40 @@
+1. Command Line Interface challenge
+
+Using the CLI, create a .txt that contains the commands necessary to answer the following questions:
+
+Q : How do I create a hidden file?
+A : cat > .filename.ext
+
+Q : How do I convert a shown folder to a hidden folder?
+A : mv myfile.ext .myfile.ext
+
+Q : How do I create a hidden folder?
+A : mkdir .foldername
+
+Q : How do I convert a shown folder to a hidden folder?
+A : mv -v myfolder .myfolder
+
+Q : How do I convert hidden folder/file to shown folder/file?
+A : mv -v .myfolder myfolder
+    mv -v .myfile.ext myfile.ext 
+
+
+Q : How do I display it in the CLI?
+A : ls -a  
+    ls -al
+    ON GUI: CTRL+H
+
+
+Q : How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+A : mkdir -p C/{Users/{myusername/{these/{folders/{are/{just/{for/{fun}}}}}}}}
+
+
+Q : How do I append a message to a file, without a newline character, so the output would be:
+first message
+second message
+
+A : printf "first message\nsecond message\n" >> read.txt
+    cat read.txt
+
+
+
