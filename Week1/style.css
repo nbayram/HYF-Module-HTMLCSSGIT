@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-  text-align: center;
+    text-align: center;
 }
 
 h2 {
@@ -99,7 +99,7 @@ nav a:hover {
     padding: 20px 0;
     text-align: center;
     background-color: rgb(3, 21, 37);
-  color: white;
+    color: white;
 }
 
 .background ul {  
