@@ -1,164 +1,175 @@
 body {
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 h2 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
-    background-color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background-color: aliceblue;
+}
+
+nav div {
+  position: relative;
+  display: inline-block;
 }
 
 nav ul {
-    position: relative;
-    left: 35%;
-    background-color: aliceblue;
+  background-color: aliceblue;
+  display: inline-block;
 }
 
 nav li {
-    float: left;
-    text-transform: uppercase;
-    list-style-type: none;
-    margin-left: 20px;
-    background-color: aliceblue;
-    margin-bottom: 16px;
+  float: none;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-left: 20px;
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+nav li:first-child {
+  margin-left: 0px;
 }
 
 nav a {
-    text-decoration: none;
-    color: rgb(3, 21, 37);
-    font-size: 20px;
+  text-decoration: none;
+  color: rgb(3, 21, 37);
+  font-size: 20px;
 }
 
 nav a:hover {
-    border-bottom: 1px solid rgb(3, 21, 37);
+  border-bottom: 1px solid rgb(3, 21, 37);
 }
 
 .banner img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .banner h1 {
-    position: absolute;
-    top: 140px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 60px;
-    color: rgb(3, 21, 37);
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 60px;
+  color: rgb(3, 21, 37);
 }
 
-.banner h4 {    
-    position: absolute;
-    top: 220px;   
-    font-size: 40px;
-    background-color: rgb(3, 21, 37);
-    left: 50%;
-    transform: translate(-50%, 0);
-    color: rgb(184, 203, 231);
+.banner h4 {
+  position: absolute;
+  top: 220px;
+  font-size: 40px;
+  background-color: rgb(3, 21, 37);
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: rgb(184, 203, 231);
 }
 
 .introduction {
-    padding-top: 60px;
-    text-align: center;
-    font-size: 40px;
-    text-shadow: 2px 2px 4px rgb(3, 21, 37);
-    height: 100%;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgb(3, 21, 37);
+  height: 100%;
 }
 
 .introduction img {
-    border: 1px solid rgb(3, 21, 37);
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    background-color: rgb(3, 21, 37);
-    margin-top: 30px;
-    display: block;
-    margin: 0 auto;
+  border: 1px solid rgb(3, 21, 37);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(3, 21, 37);
+  margin-top: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 .introduction h4 {
-    font-style: italic;
-    line-height: 5px;
+  font-style: italic;
+  line-height: 5px;
 }
 
 .introduction p {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .background {
-    padding: 20px 0;
-    text-align: center;
-    background-color: rgb(3, 21, 37);
-    color: white;
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgb(3, 21, 37);
+  color: white;
 }
 
-.background ul {  
-    margin-left: 80px;
-    list-style-type: none;
-    display: inline-block;
+.background ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.ul-left-padding {
+  padding-left: 0px;
 }
 
 .background img {
-    width: 250px;
-    height: 180px;
-    box-shadow: 3px 3px 5px 5px silver;
+  width: 250px;
+  height: 180px;
+  box-shadow: 3px 3px 5px 5px silver;
 }
 
 .background p {
-    width: 250px;
-    display: inline-block;
+  width: 250px;
+  display: inline-block;
 }
 
 .background h3 {
-    text-transform: uppercase;
-    font-size: 20px;
-    text-decoration: underline;
-    display: inline-block;
-    background-color: rgb(3, 21, 37);
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: underline;
+  display: inline-block;
+  background-color: rgb(3, 21, 37);
 }
 
 .background h5 {
-    font-size: 16px;
-    font-style: italic;
-    display: inline-block;
-    background-color: rgb(3, 21, 37);
+  font-size: 16px;
+  font-style: italic;
+  display: inline-block;
+  background-color: rgb(3, 21, 37);
 }
 
 .work {
-    clear: both;
-    padding-top: 20px;
-    color: rgb(3, 21, 37);
+  clear: both;
+  padding-top: 20px;
+  color: rgb(3, 21, 37);
 }
 
 .work h2 {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .work ul {
-    float: left;
-    list-style-type: none;
-    line-height: 80px;
-    text-shadow: 2px 2px 4px rgb(3, 21, 37);
+  float: left;
+  list-style-type: none;
+  line-height: 80px;
+  text-shadow: 2px 2px 4px rgb(3, 21, 37);
 }
 
 .work li {
-    font-size: 25px;
-    text-transform: capitalize;
+  font-size: 25px;
+  text-transform: capitalize;
 }
 
 .head {
-    text-transform: uppercase;
-    font-size: 30px;
-    text-decoration: underline;
-    margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
