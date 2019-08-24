@@ -96,6 +96,7 @@ nav a:hover {
 }
 
 .background {
+    clear: both;
     padding: 20px 0;
     text-align: center;
     background-color: rgb(3, 21, 37);
