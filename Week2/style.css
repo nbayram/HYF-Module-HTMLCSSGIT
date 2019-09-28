@@ -29,7 +29,8 @@ body {
   src: local('Merriweather Regular'), local('Merriweather-Regular'),
     url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2)
       format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
 }
 
 h1 {
@@ -110,6 +111,7 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* four equal columns*/
   grid-gap: 3rem 2rem; /* set between of the columns*/
+  margin-right: 2.5rem;
 }
 
 #grid-flex .grid-item {
@@ -251,4 +253,3 @@ section {
     max-width: 60%;
   }
 }
-
