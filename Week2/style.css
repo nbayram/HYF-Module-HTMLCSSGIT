@@ -111,7 +111,7 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* four equal columns*/
   grid-gap: 3rem 2rem; /* set between of the columns*/
-  margin-right: 2.5rem;
+  padding-right: 40px;
 }
 
 #grid-flex .grid-item {
